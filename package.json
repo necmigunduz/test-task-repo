@@ -1,5 +1,6 @@
 {
   "name": "malwarebyes-server",
+  "type": "module",
   "version": "1.0.0",
   "description": "Takehome task for Malwarebytes",
   "main": "index.js",

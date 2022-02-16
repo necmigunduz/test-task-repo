@@ -16,10 +16,10 @@ var root = {
 
 // Create express server and a GraphQl endpoint
 let app = express();
-app.use('/graphql', graphqlHTTP({
+app.use('/malwarebytes-graphql', graphqlHTTP({
     schema: schema,
     rootValue: root,
     graphiql: true
 }));
 
-app.listen(4000, () => console.log("Express GraphQl Server is running on localhost:4000/graphql"));
+app.listen(4000, () => console.log("Express GraphQl Server is running on localhost:4000/malwarebytes-graphql"));

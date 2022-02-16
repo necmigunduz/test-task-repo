@@ -9,6 +9,7 @@ let schema = buildSchema(`
         products(brand: String): [Product]
     },
     type Mutation {
+        create
         updateBrand(id: Int!, brand: String): Product
         updateProductName(id: Int!, productName: String): Product
         updateColor(id: Int!, color: String): Product

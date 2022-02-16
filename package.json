@@ -1,0 +1,25 @@
+{
+  "name": "malwarebyes-server",
+  "version": "1.0.0",
+  "description": "Takehome task for Malwarebytes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/necmigunduz/test-task-repo.git"
+  },
+  "keywords": [
+    "nodejs",
+    "graphql",
+    "react",
+    "express"
+  ],
+  "author": "Necmi Gunduz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/necmigunduz/test-task-repo/issues"
+  },
+  "homepage": "https://github.com/necmigunduz/test-task-repo#readme"
+}
